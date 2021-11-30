@@ -22,6 +22,7 @@
     <!-- Note that all required permissions are declared here in the Android manifest.
      On Android M and above, use of these permissions is only requested at run time. -->
     <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <!-- END_INCLUDE(manifest) -->
 
     <application

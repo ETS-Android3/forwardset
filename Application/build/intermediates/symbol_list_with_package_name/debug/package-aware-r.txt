@@ -1395,6 +1395,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id FtNo
 id META
 id SHIFT
 id SYM
@@ -1462,7 +1463,7 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
-id button_open_camera
+id button_call
 id camera_preview
 id cancel_button
 id center
@@ -1589,6 +1590,15 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id rb_Cancel
+id rb_Check
+id rb_Set
+id rb_all
+id rb_busy
+id rb_gr
+id rb_gr2
+id rb_na
+id rb_nr
 id right
 id right_icon
 id right_side
@@ -1635,6 +1645,7 @@ id start
 id stretch
 id submenuarrow
 id submit_area
+id switch1
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -1818,6 +1829,11 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
 plurals mtrl_badge_content_description
+string CF_ALL
+string CF_BUSY
+string CF_NA
+string CF_NR
+string SelectType
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1859,6 +1875,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string defaultFtNo
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -1868,6 +1885,7 @@ string icon_content_description
 string intro
 string intro_message
 string item_view_role_description
+string make_call
 string material_slider_range_end
 string material_slider_range_start
 string mtrl_badge_numberless_content_description
@@ -1906,7 +1924,6 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string ok
-string open_camera_preview
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

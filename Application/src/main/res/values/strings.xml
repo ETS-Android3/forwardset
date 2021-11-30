@@ -18,7 +18,7 @@
     <string name="show_camera">Make call preview</string>
     <string name="camera_unavailable"><b>Call could not be opened.</b>\nThis occurs when the call is not available (for example it is already in use) or if the system has denied access (for example when camera access has been disabled).</string>
     <string name="intro">This sample shows a basic implementation for requesting permissions at runtime.\nClick the button below to request the CALL permission and make a USSD call.</string>
-    <string name="open_camera_preview">Make Forwarding request</string>
+    <string name="make_call">Make Forwarding request</string>
     <string name="app_name">ForwardingPoC</string>
     <string name="intro_message"><![CDATA[
 PoC for callforwarding setting in app via USSD]]>
@@ -29,4 +29,11 @@ PoC for callforwarding setting in app via USSD]]>
     <string name="camera_permission_available">Call permission is available. Starting preview.</string>
     <string name="camera_permission_granted">Call permission was granted. Starting preview.</string>
     <string name="camera_permission_denied">Call permission request was denied.</string>
+    <string name="defaultFtNo">+78003503599</string>
+    <string name="SelectType">Select forwarding type</string>
+    <string name="CF_ALL">All (21)</string>
+    <string name="CF_BUSY">Busy or Reject (67)</string>
+    <string name="CF_NA">No Answer (61)</string>
+    <string name="CF_NR">Not reachable (62)</string>
+
 </resources>
