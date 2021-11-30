@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:17:1-48:12
-INJECTED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:17:1-48:12
+ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:17:1-49:12
+INJECTED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:17:1-49:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\kzayk\.gradle\caches\transforms-2\files-2.1\c63d4a666c0a1ba98c2e2f24b9638d9e\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\kzayk\.gradle\caches\transforms-2\files-2.1\780dca39713ff2fcf4eadcaf494ac982\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kzayk\.gradle\caches\transforms-2\files-2.1\f52122426ed85128097908a2e58f6328\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -29,7 +29,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kzayk\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kzayk\.gradle\caches\transforms-2\files-2.1\06bc4641de51b04d4df94808d6e05292\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\kzayk\.gradle\caches\transforms-2\files-2.1\1b64911e987df0fea019408e241659d7\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\kzayk\.gradle\caches\transforms-2\files-2.1\a77c810a56173ccf6fb339f045a6aacd\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:17:1-48:12
+INJECTED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:17:1-49:12
 	package
 		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:18:11-57
 		INJECTED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml
@@ -40,8 +40,12 @@ uses-permission#android.permission.CALL_PHONE
 ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:24:5-68
 	android:name
 		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:24:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:25:22-72
 application
-ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:27:5-46:19
+ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:28:5-47:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\kzayk\.gradle\caches\transforms-2\files-2.1\c63d4a666c0a1ba98c2e2f24b9638d9e\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\kzayk\.gradle\caches\transforms-2\files-2.1\c63d4a666c0a1ba98c2e2f24b9638d9e\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.core:core:1.2.0] C:\Users\kzayk\.gradle\caches\transforms-2\files-2.1\4f3d7d743df13c1af889a0942a35670d\core-1.2.0\AndroidManifest.xml:24:5-89
@@ -51,35 +55,35 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\kz
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] C:\Users\kzayk\.gradle\caches\transforms-2\files-2.1\4f3d7d743df13c1af889a0942a35670d\core-1.2.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:30:13-45
+		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:31:13-45
 	android:icon
-		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:29:13-47
+		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:30:13-47
 	android:allowBackup
-		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:28:13-39
+		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:29:13-39
 	android:theme
-		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:31:13-57
+		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:32:13-57
 activity#com.example.android.basicpermissions.MainActivity
-ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:32:9-39:20
+ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:33:9-40:20
 	android:label
-		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:34:17-49
+		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:35:17-49
 	android:name
-		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:33:17-45
+		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:34:17-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:35:13-38:29
+ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:36:13-39:29
 action#android.intent.action.MAIN
-ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:36:17-68
+ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:37:17-68
 	android:name
-		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:36:25-66
+		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:37:17-76
+ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:38:17-76
 	android:name
-		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:37:27-74
+		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:38:27-74
 activity#com.example.android.basicpermissions.camera.CameraPreviewActivity
-ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:42:9-44:43
+ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:43:9-45:43
 	android:exported
-		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:44:17-41
+		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:45:17-41
 	android:name
-		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:43:17-61
+		ADDED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml:44:17-61
 uses-sdk
 INJECTED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\OneDrive\code\android\permissions-samples\RuntimePermissionsBasic\Application\src\main\AndroidManifest.xml
